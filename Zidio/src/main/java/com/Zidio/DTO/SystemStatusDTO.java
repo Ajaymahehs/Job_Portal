@@ -1,0 +1,53 @@
+package com.Zidio.DTO;
+
+public class SystemStatusDTO {
+	public int totalUsers;
+	public int totalRecruiters;
+	public int totalEmployees;
+	public int totalJobPosts;
+	public int totalApplicatiions;
+	
+	
+	
+	public SystemStatusDTO() {}
+	public SystemStatusDTO(int totalUsers,int totalRecruiters,int totalEmployees,int totalApplicatiions,int totalJobPosts) {
+		
+		this.totalUsers=totalUsers;
+		this.totalEmployees=totalEmployees;
+		this.totalRecruiters=totalRecruiters;
+		this.totalJobPosts=totalJobPosts;
+		this.totalApplicatiions=totalApplicatiions;
+		
+	}
+	public int getTotalUsers() {
+		return totalUsers;
+	}
+	public void setTotalUsers(int totalUsers) {
+		this.totalUsers = totalUsers;
+	}
+	public int getTotalRecruiters() {
+		return totalRecruiters;
+	}
+	public void setTotalRecruiters(int totalRecruiters) {
+		this.totalRecruiters = totalRecruiters;
+	}
+	public int getTotalEmployees() {
+		return totalEmployees;
+	}
+	public void setTotalEmployees(int totalEmployees) {
+		this.totalEmployees = totalEmployees;
+	}
+	public int getTotalJobPosts() {
+		return totalJobPosts;
+	}
+	public void setTotalJobPosts(int totalJobPosts) {
+		this.totalJobPosts = totalJobPosts;
+	}
+	public int getTotalApplicatiions() {
+		return totalApplicatiions;
+	}
+	public void setTotalApplicatiions(int totalApplicatiions) {
+		this.totalApplicatiions = totalApplicatiions;
+	}
+
+}
